@@ -2,7 +2,6 @@ import os
 import mlflow
 
 mlflow.set_tracking_uri("http://10.101.4.2:5000")
-mlflow.set_experiment("tutorial")
 
 
 if __name__ == "__main__":
