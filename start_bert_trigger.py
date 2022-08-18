@@ -3,7 +3,7 @@ import mlflow
 
 
 if __name__ == "__main__":
-    experiment_id = mlflow.create_experiment("BertML-experiment2")
+    #experiment_id = mlflow.create_experiment("BertML-experiment2")
 
     command_str = "ssh zhoufang@10.101.7.1 '/home/common/software/anaconda3/bin/python3 -u /home/zhoufang/mpt-wx/yu_bert_train_trigger.py'"
     with mlflow.start_run(experiment_id=experiment_id):
