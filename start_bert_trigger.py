@@ -9,8 +9,8 @@ if __name__ == "__main__":
     with mlflow.start_run(experiment_id=experiment_id):
         mlflow.log_param("iteration", "100")
         mlflow.log_param("batch size", "8")
-        mlflow.log_metric("learning rate", "0.0000009173")
-        mlflow.log_metric("lm loss", "0.000008050369")
-        mlflow.log_metric("sop loss", "0.0000007277749")
+        mlflow.log_metric("learning rate", "0.9173")
+        mlflow.log_metric("lm loss", "0.8050369")
+        mlflow.log_metric("sop loss", "0.7277749")
         os.system(command_str)
         
